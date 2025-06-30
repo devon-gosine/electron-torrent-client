@@ -86,10 +86,10 @@ electron-torrent-client/
 ### ✅ MVP (Done)
 - [x] Electron app shell
 - [x] WebTorrent integration
-- [x] Magnet URI download
-- [x] Live progress and speed display
 
 ### 🔜 Next Steps
+- [ ] Magnet URI download
+- [ ] Live progress and speed display
 - [ ] File picker to select `.torrent` files
 - [ ] Built-in media player (stream in-app)
 - [ ] Save user download paths
