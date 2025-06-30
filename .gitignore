@@ -1,0 +1,13 @@
+# Ignore dependencies
+node_modules/
+
+# Ignore builds
+dist/
+out/
+
+# Logs
+*.log
+
+# OS / Editor cruft
+.DS_Store
+Thumbs.db
