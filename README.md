@@ -45,12 +45,12 @@ Modern torrent clients are often **bloated**, **ad-ridden**, or **visually dated
 
 Clone the repo and start hacking:
 
-\`\`\`bash
+```bash
 git clone https://github.com/devon-gosine/electron-torrent-client.git
 cd electron-torrent-client
 npm install
 npm start
-\`\`\`
+```
 
 > Requires Node.js 18+ and npm 8+
 
@@ -58,7 +58,7 @@ npm start
 
 ## 📁 Project Structure
 
-\`\`\`bash
+```bash
 electron-torrent-client/
 ├── main.js           # Electron main process
 ├── index.html        # UI layout
@@ -67,7 +67,7 @@ electron-torrent-client/
 ├── .gitignore        # Keeps it clean
 ├── README.md         # This file!
 └── package.json      # Dependencies and config
-\`\`\`
+```
 
 ---
 
@@ -86,11 +86,11 @@ electron-torrent-client/
 ### ✅ MVP (Done)
 - [x] Electron app shell
 - [x] WebTorrent integration
+- [x] Magnet URI download
+- [x] Live progress and speed display
 
 ### 🔜 Next Steps
-- [ ] Magnet URI download
-- [ ] Live progress and speed display
-- [ ] File picker to select \`.torrent\` files
+- [ ] File picker to select `.torrent` files
 - [ ] Built-in media player (stream in-app)
 - [ ] Save user download paths
 - [ ] Add pause/resume support
@@ -133,7 +133,6 @@ Pull requests are always welcome — even small ones like fixing a typo or addin
 
 > _“Seed joy, leech stress.”_
 
-- 🌐 [Your Portfolio](https://your-portfolio.dev)
 - 🐙 [GitHub @devon-gosine](https://github.com/devon-gosine)
 - 🐦 Twitter: [@yourhandle](https://twitter.com/yourhandle)
 - ☕ Buy me a coffee: _soon_
