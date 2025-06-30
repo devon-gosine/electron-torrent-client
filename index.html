@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Electron Torrent Client</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        button, input { margin-top: 10px; }
+    </style>
+</head>
+<body>
+    <h1>Electron Torrent Client</h1>
+
+    <input type="text" id="torrentId" placeholder="Magnet URI or Torrent URL" size="80">
+    <button id="download">Download</button>
+
+    <h2>Status</h2>
+    <div id="status">Waiting for input...</div>
+
+    <script src="renderer.js"></script>
+</body>
+</html>
